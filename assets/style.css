@@ -1,0 +1,282 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #28292D;
+}
+
+h2,
+h2.title-variety,
+h2.title-advantages {
+    font-size: 48px;
+}
+
+.headline_button,
+.banner_button,
+.footer_button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    background-image: linear-gradient(to left, #F19217 100%, #EA611B 100%);
+    border-radius: 5px;
+    border: #EA611B;
+}
+
+/*шапка*/
+.headline {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    height: 110px;
+
+    font-weight: 300;
+}
+
+.headline_button {
+    width: 200px;
+    height: 45px;
+
+    font-size: 15px;
+}
+
+/*навигация вверху страницы*/
+.headline_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.headline_menu a {
+    padding: 40px;
+    border: 1px solid #E5E5E5;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #EA611B;
+}
+
+a:active {
+    color: aqua
+}
+
+/*баннер*/
+.banner {
+    display: block;
+    width: 100%;
+    height: 620px;
+    background-image: url("./images/background.svg");
+}
+
+h1 {
+    margin-left: 3%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: bolder;
+
+    color: #EA611B;
+    text-shadow: #F19217 1px 1px 1px;
+}
+
+.banner_button {
+    width: 300px;
+    height: 55px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.aside-left {
+    float: left;
+
+    margin-left: 3%;
+}
+
+.aside-right {
+    float: right;
+
+    margin: 0%;
+}
+
+/*Текст про товары*/
+h2 {
+    margin-left: 3%;
+
+    font-weight: 700;
+}
+
+.text-variety,
+.title-furniture-foam,
+.title-technical-foam {
+    margin-left: 3%;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.title-furniture-foam,
+.title-technical-foam {
+    font-weight: bolder;
+}
+
+/*Картинки с поролонами*/
+.furniture-foam,
+.technical-foam {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+
+    clear: both;
+}
+
+.furniture-foam {
+    height: 200px;
+}
+
+.technical-foam {
+    height: 400px;
+}
+
+/*Преимущества поролона*/
+.advantages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 350px;
+    margin-left: 3%;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+[class^="image"] {
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid #E5E5E5;
+    border-radius: 75px;
+}
+
+.label {
+    font-size: 18px;
+    text-align: center;
+}
+
+/*знакомство с компанией*/
+.introduce {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.introduce-img {
+    float: left;
+    margin-left: 3%;
+
+    width: 690px;
+    height: 500px;
+}
+
+.introduce-text {
+    float: right;
+
+    margin-bottom: auto;
+}
+
+.text-about {
+    width: 570px;
+    height: 175px;
+
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+/*Подвал*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 450px;
+
+    background: url("./images/background.svg");
+    clear: both;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.feedback_form {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.confid_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+[type="text"] {
+    width: 360px;
+    height: 55px;
+    padding-left: 1%;
+}
+
+[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+
+    border: 1px solid black;
+}
+
+::placeholder,
+[for="confidentional"] {
+    font-size: 14px;
+}
+
+.footer_button {
+    width: 360px;
+    height: 60px;
+
+    font-size: 18px;
+}
